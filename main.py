@@ -6,3 +6,8 @@ if user_input==1:
     b=float(input("Enter your number "))
     sum=a+b
     print(f"The sum of two number is {sum}")
+elif user_input==2:
+    a=float(input("Enter your number "))
+    b=float(input("Enter your number "))
+    sub=a-b
+    print(f"The subtraction of two number is {sub}")
