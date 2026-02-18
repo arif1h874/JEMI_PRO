@@ -19,5 +19,14 @@ elif user_input==3:
     else:
         div=a/b
         print(f"The division of two number is {div}")
+elif user_input==4:
+    a=float(input("Enter your number "))
+    b=float(input("Enter your number "))
+    mul=a*b
+    print(f"The subtraction of two number is {mul}")
+
+else:
+    print("Invalid choice..try again ")
+
         
     
