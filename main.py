@@ -11,3 +11,13 @@ elif user_input==2:
     b=float(input("Enter your number "))
     sub=a-b
     print(f"The subtraction of two number is {sub}")
+elif user_input==3:
+    a=float(input("Enter your number "))
+    b=float(input("Enter your number "))
+    if b==0:
+        print("cannot divide by zero ")
+    else:
+        div=a/b
+        print(f"The division of two number is {div}")
+        
+    
